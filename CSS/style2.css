@@ -1,0 +1,596 @@
+body{
+    background-color: transparent;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+
+    background-color: pink !important;
+    color:black;
+    font-size: 15px;
+    font-weight: inherit;
+    opacity:0.2px;
+    margin: 10px;
+    
+    /*border:100px;*/
+    text-transform: capitalize;
+    justify-content: right;
+    align-content:space-around ;
+}
+.list{
+    width:1000px;
+    padding:5px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    font-size: 13px;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+} 
+.follow_banyan{
+    display:flex;
+    flex-direction:row;
+    
+}
+.follow_banyan > div{
+    width:200px;
+    margin:5px;
+    flex-wrap:nowrap;
+    font-size:8px;
+text-align: right;
+    justify-content: space-around;
+
+
+}
+.follow_banyan:hover{
+    background-color: transparent;
+    
+}
+.follow_banyan li a{
+    background-color: transparent;
+    color:black;
+    text-decoration: none;
+}
+.follow_banyan li{
+    text-decoration: none;
+    list-style: none;
+}
+.media li a{
+    background-color: transparent;
+    cursor:pointer;
+    color:black;
+}
+.herbs li a{
+    background-color: transparent;
+    cursor:pointer;
+    color:black;
+}
+.orders li a{
+    background-color: transparent;
+    cursor:pointer;
+    color:black;
+}
+.about_us li a{
+    background-color: transparent;
+    cursor:pointer;
+    color:black;
+}
+.herbs:hover{
+    background-color: transparent;
+    
+    color:black;
+}
+.herbs li {
+background-color: transparent;
+color:black;
+
+}
+.left-navbar li a:hover{
+    background-color: blue;
+}
+.vishwa_herbs{
+    display:flex;
+    flex-direction: row;
+    
+}
+/*.vishwa_herbs   > div{
+    width:200px;
+    padding:3px;
+    flex-wrap: nowrap;
+
+    font-size:8px;
+    text-align: right;
+    justify-content: space-between;
+
+}*/
+/*.orders{
+    width:200px;
+    margin:5px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: 8px;
+    justify-content: center;
+
+}*/
+.About_us{
+    width:200px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: 8px;
+    justify-content: space-around;
+
+}
+.Bcorporation{
+    width:200px;
+    
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+.notify{
+    width:1300px;
+    padding:5px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    font-size: 13px;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+}
+/*.left-navbar > div{
+    width:10000px;
+    margin:10px;
+    text-align: right;
+    text-transform: capitalize;
+}*/
+ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+li{
+    font-size: 18px;
+    font-family: Verdana;
+}
+.nav-list{
+    width:500px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+} 
+.nav-list li{
+
+    list-style:none;
+    padding:26px 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color:white;
+}
+.nav-list li a:hover{
+    color:black;
+}
+.rightnav{
+    display:flex;
+    flex-direction: row;
+ width:500px;
+    opacity:0.1px;
+    
+    
+
+}
+#search{
+    padding:10px;
+    font-size:14px;
+    border:1px solid grey;
+    border-radius: 2px;
+
+    
+    text-align: right;
+    align-content: space-between;
+    justify-content:right;
+    margin:70px;
+}
+#text{
+    padding:10px;
+    font-size:14px;
+    border:1px solid grey;
+    border-radius:2px;
+    text-align: left;
+    align-content: space-between;
+    justify-content: right;
+    margin:50px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+
+    background-color: pink ;
+    color:black;
+    font-size: 14px;
+    font-weight: inherit;
+    opacity:0.3px;
+    margin: 10px;
+    border:50px;
+    text-transform: capitalize;
+    justify-content: space-between;
+    align-content:space-between ;
+}
+.btn-sm{
+    background-color: blue;
+    color:white;
+    padding:10px;
+    margin:50px;
+    font-size:12px;
+    cursor:pointer;
+    text-align: left;
+    float:right;
+    border: 1pxsolid grey;
+    
+}
+h2{
+    background-color: transparent;
+    color:black;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+/*.category{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: transparent;
+
+}
+
+.category > div{
+    background-color: white;
+    width:500px;
+    margin:10px;
+    text-align:center;
+    line-height:75px;
+    font-size:30px;
+    align-items: flex-start;
+    justify-content: space-around;
+}*/
+
+.video{
+    background-color: transparent;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    
+}
+/*.video > div{
+    width:500px;
+text-transform: capitalize;
+font-size:20px;
+text-align: center;
+line-height: 20px;
+font-weight: bold;
+}*/
+.learn{
+    background-color: azure;
+    color:black;
+    display:flex;
+    flex-direction: column;
+    position:sticky;
+    
+}
+.learn > div{
+width:500px;
+text-transform: capitalize;
+font-size:20px;
+justify-content: space-between;
+align-content: space-between;
+font-weight: inherit;
+
+    flex-wrap:nowrap;
+}
+.introduction{
+    background-color: green;
+    color:white;
+    font-size:20px;
+    font-weight: inherit;
+    text-align: center;
+    text-transform: capitalize;
+    padding:80px;
+}
+.Ayurved{
+    background-color: transparent;
+    font-size:15px;
+    font-weight: bold;
+    list-style-type: disc;
+    line-height: 75px;
+}
+.Ayurveda{
+    background-color: lightgoldenrodyellow;
+    color:black;
+    font-size:20px;
+    text-align: center;
+    text-transform: capitalize;
+    padding:70px;
+    font-weight: 600;
+}
+.Definition{
+    background-color: azure;
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    padding:70px;
+    font-weight: inherit;
+}
+.element li{
+    background-color: white;
+    font-size:20px;
+    font-weight: 700;
+    line-height: 70px;
+    text-transform: capitalize;
+}
+.Dosha_image{
+    background-color: transparent;
+    color:black;
+    width:100px;
+    margin:10px;
+    text-align:right;
+    line-height: 20px;
+    font-size: 15px;
+}
+.Dosha_image::after{
+    content: "Discover your Dosha: <button> <h4>Take the Quiz </h4></button>"
+    position:absolute;
+    top:600px;
+    white-space: pre;
+    right: 100%;
+    transform: translateX(50%);
+    font-weight: bold;
+    font-size: 30px;
+}
+.Elements{
+    background-color: transparent;
+    color:black;
+    font-size:20px;
+    line-height: 40px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.Qualities{
+    display:inline;
+    width:500px;
+    margin:15px;
+    
+    font-size:8px;
+text-align: center;
+    line-height: 40px;
+}
+.Vishwa{
+    display:flex;
+    flex-direction:row;
+    background-color: lightblue;
+}
+.Vishwa > div {
+    width:1000px;
+    text-align: center;
+    line-height: 30px;
+    text-transform: capitalize;
+    justify-content: center;
+    align-content: center;
+}
+/*.quality1{
+    display:flex;
+    flex-direction: column;
+}
+.quality1 > div {
+  width:200px;
+  text-align: center;
+  line-height: 35px;
+  text-transform: capitalize;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.quality2{
+    display:flex;
+    flex-direction: column;
+}
+.quality2 > div {
+    width:200px;
+    text-align: center;
+    line-height: 35px;
+    text-transform: capitalize;
+    justify-content: space-around;
+    align-content: space-around;
+}*/
+.ayur-body{
+    display:flex;
+    flex-direction: row;
+    width:700px;
+    background-color:black ;
+    color:white;
+    text-align:center;
+    font-size:20px;
+    text-transform: capitalize;
+    line-height: 50px;
+    justify-content: center;
+    align-content: center;
+}
+.pitta{
+    display:flex;
+    flex-direction: column;
+    background-color: orangered;
+    color:white;
+    width:700px;
+    text-align:center;
+    text-transform: capitalize;
+    line-height: 20px;
+    font-size:20px;
+    justify-content: space-around;
+    align-content: space-around;
+
+}
+.image1{
+    display:flex;
+    flex-direction: column;
+    background-color: transparent;
+    width:200px;
+    font-size:18px;
+    font-weight: 900;
+    line-height: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.image2{
+    display:flex;
+    flex-direction: column;
+    background-color: transparent;
+    width:200px;
+    font-size:18px;
+    font-weight: 900;
+    line-height: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.pitta2{
+    display:flex;
+    flex-direction: row;
+    background-color: white;
+color:black;
+    width:700px;
+    text-align:center;
+    text-transform: capitalize;
+    line-height: 20px;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.Kapha-Dosha{
+   display: flex;
+   flex-direction: column;
+   background-color: lightblue;
+    width:700px;
+    text-align:center;
+    text-transform: capitalize;
+    line-height: 20px;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.vata_dosha{
+    display: flex;
+    flex-direction: column;
+    background-color: lightyellow;
+    width:700px;
+    text-align:center;
+    text-transform: capitalize;
+    line-height: 20px;
+    font-size:18px;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.Kapha2{
+    display:flex;
+    flex-direction: row;
+    background-color: white;
+    color:black;
+    width:700px;
+    text-align:center;
+    text-transform: capitalize;
+    line-height: 20px;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.vata2{
+    display:flex;
+    flex-direction: row;
+    background-color: white;
+    color:black;
+    width:700px;
+    text-align:center;
+    text-transform: capitalize;
+    line-height: 20px;
+    font-size: 20px;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.image3{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    width:200px;
+    font-size:18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.image4{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    width:200px;
+    font-size:18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.image5{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    width:200px;
+    font-size:18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.image6{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    width:200px;
+    font-size:18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.body-type{
+    background-color: lightgrey;
+    color:black;
+    font-size: 20px;
+    font-weight: inherit;
+    line-height: 50px;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+p{
+    background-color: transparent;
+    font-size:20px;
+    font-weight: inherit;
+    text-align: center;
+    text-transform: capitalize;
+    padding:70px;
+    margin:20px;
+    border:100px;
+    
+}
