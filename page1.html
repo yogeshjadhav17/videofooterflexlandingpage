@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishwa Ayurveda Products</title>
+
+    <link rel="stylesheet" href="css/style1.css">
+
+    <style>
+      body{
+          background-color: azure;
+
+      }
+      .header{
+          display:flex;
+          flex-direction: row;
+          background-color: pink !important;
+    color:black;
+    font-size: 15px;
+    font-weight: inherit;
+    opacity:0.2px;
+    margin: 5px;
+    width:1300px;
+    /*border:100px;*/
+    text-transform: capitalize;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content:space-between ;
+      }
+
+      .left-navbar{
+    width:1300px;
+    padding:5px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    font-size: 13px;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+} 
+.notify{
+    width:1300px;
+    padding:5px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    font-size: 13px;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+}
+/*.left-navbar > div{
+    width:10000px;
+    margin:10px;
+    text-align: right;
+    text-transform: capitalize;
+}*/
+ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+li{
+    font-size: 18px;
+    font-family: Verdana;
+}
+.nav-list{
+    width:1300px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content:space-between ;
+} 
+.nav-list li{
+
+    list-style:none;
+    padding:26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color:white;
+}
+.nav-list li a:hover{
+    color:black;
+}
+.rightnav{
+    display:flex;
+    flex-direction: row;
+ width:1000px;
+    opacity:0.1px;
+    
+    
+
+}
+#search{
+    padding:10px;
+    font-size:14px;
+    border:1px solid grey;
+    border-radius: 2px;
+    
+    text-align: left;
+    align-content: space-between;
+    justify-content: space-between;
+    margin:70px;
+}
+#text{
+    padding:10px;
+    font-size:14px;
+    border:1px solid grey;
+    border-radius:2px;
+    text-align: left;
+    align-content: space-between;
+    justify-content: right;
+    margin:50px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+
+    background-color: pink ;
+    color:black;
+    font-size: 14px;
+    font-weight: inherit;
+    opacity:0.3px;
+    margin: 10px;
+    border:50px;
+    text-transform: capitalize;
+    justify-content: space-between;
+    align-content:space-between ;
+}
+.btn-sm{
+    background-color: blue;
+    color:white;
+    padding:10px;
+    margin:70px;
+    font-size:12px;
+    cursor:pointer;
+    text-align: left;
+    float:right;
+    border: 1pxsolid grey;
+    
+}
+.image{
+    background-color: transparent;
+    border:100px 80px 100px 80px;
+    padding: 10px;
+    margin:10px;
+
+}
+
+h2{
+    background-color: transparent;
+    color:black;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+/*.category{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: transparent;
+
+}
+
+.category > div{
+    background-color: white;
+    width:500px;
+    margin:10px;
+    text-align:center;
+    line-height:75px;
+    font-size:30px;
+    align-items: flex-start;
+    justify-content: space-around;
+}*/
+.cat1,.cat2,.cat3,.cat4,.cat5,.cat6
+{
+    float:right;
+}
+.introduction{
+    background-color: green;
+    color:white;
+    font-size:20px;
+    font-weight: inherit;
+    text-align: center;
+    text-transform: capitalize;
+    padding:80px;
+    
+
+}
+.prod1,.prod2,.prod3,.prod4,.prod5,.prod6{
+    float:right;
+}
+
+/*.Products{
+    background-color: transparent;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.Products > div{
+    background-color: azure;
+    width:500px;
+    margin:10px;
+    text-align:center;
+    line-height:75px;
+    align-items: flex-start;
+    justify-content: space-around;
+}*/
+.customers{
+    display:flex;
+    background-color: azure;
+    flex-wrap: nowrap;
+}
+.customers > div{
+    background-color: azure;
+    width:1000px;
+    margin:10px;
+    text-align: center;
+    line-height: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+} 
+/*.cust1,.cust2,.cust3{
+    float:right;
+} */
+p{
+    background-color: transparent;
+    color:black;
+    font-size: 22px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: inherit;
+    padding:50px;
+}
+.image1{
+    background-color: transparent;
+    color:black;
+    font-size:15px;
+    text-transform: capitalize;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.image2{
+    display:flex;
+    flex-wrap: nowrap;
+    background-color: transparent;
+    color:black;
+    font-size: 15px;
+    text-transform: capitalize;
+    flex-direction: row; 
+
+}
+.image2  > div{
+    background-color: transparent;
+    color:black;
+    width:100px;
+    margin:10px;
+    line-height: 20px;
+    font-size: 15px;
+}
+.image3  > div{
+    background-color: transparent;
+    color:black;
+    width:100px;
+    margin:10px;
+    line-height: 20px;
+    font-size: 15px;
+}
+.image3{
+    display:flex;
+   flex-wrap: nowrap; 
+    background-color: transparent;
+    color:black;
+    font-size: 15px;
+    text-transform: capitalize;
+   flex-direction: row; 
+
+}
+.image1  > div{
+    background-color: transparent;
+    color:black;
+    width:100px;
+    margin:10px;
+    text-align:right;
+    line-height: 20px;
+    font-size: 15px;
+}
+.image1::after{
+    content: "Ayurvedic Lifestyle : From the past 25 years,sharing the wisdom of ayurved and its power of Ayurvedic herbs has been our passion.
+    We are here to help people achieve and maintain optimal health and well-being"
+    position:absolute;
+    top:600px;
+    white-space: pre;
+    right: 100%;
+    transform: translateX(50%);
+    font-weight: bold;
+    font-size: 30px;
+}
+.image2 :: after{
+    content: "More Than a Dosha Quiz :  Find balance and learn your Ayurvedic body type. This online test 
+    will give you a process of self-discovery, inquiry, and honest
+     reflection through the lens of Ayurveda."
+     position:absolute;
+     top:600px;
+     white-space: pre;
+     right : 100%;
+     transform: translateX(100%);
+     font-weight: bold;
+     font-size: 30px;
+}
+.image3 ::before{
+    content: "Making a difference: As a Certified B Corp, we're passionately committed to using our business <br>
+    as a force for good and creating positive social and environmental change."
+     position:absolute;
+     top:600px;
+     white-space: pre;
+     right : 100%;
+     transform: translateX(100%);
+     font-weight: bold;
+     font-size: 30px;
+}
+.features{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: transparent;
+}
+.features > div{
+    background-color: transparent;
+    color:black;
+    font-size:15px;
+    font-weight: inherit;
+    width:1000px;
+    margin:10px;
+    text-align:center;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+
+<div class="header">
+
+
+            <ul class="nav-list" style="list-style:none">
+                <li><a href="page1.html"> Shop</a></li>
+                <li><a href="Learnayurveda.html"> Learn Ayurveda</a></li>
+                <li><a href="#.html"> Inside Vishwa</a></li>
+
+            </ul>
+
+<!-----<div class="rightnav">----->
+
+
+    <input type="text" name="search" id="search">
+    <button class="btn-sm" style="background-color:blue"> Search</button>
+</div>
+
+
+<div class="image">
+
+<img src="Images\ayurveda-header.jpg" width="1300px" height="1033px">
+
+
+
+</div>
+
+
+
+</div>
+
+    </header>
+    <main>
+
+
+        <h2> Shop By Category</h2>
+<div class="category">
+            
+        <div class="cat1"> <img src="Images\bulkherb.png" style="width:200px; height:200px"></div>
+        <div style="text-align: center" class="cat2"> <img src="Images\dried-black-tea-leaves-spoon-260nw-1531978199.jpg" style="width:200px;height:200px"></div>
+        <div class="cat3"> <img src="Images\liquidextract.jpg" style="width:200px;height:200px"></div>
+        <div class="cat4"> <img src="Images\ayurvedtablet.webp" style="width:200px;height:200px"></div>
+        <div class="cat5"> <img src="Images\castor-oil-seeds-on-wood-260nw-1696525513.jpg" style="width:200px; height:200px"></div>
+        <div class="cat6"> <img src="Images\ayurvedcooking.jpg" style="width:200px; height:200px"></div>
+
+        </div>
+       <div class="introduction" style="background-color:green; color:white;">
+
+                                <h2 style="text-align: center; font-weight: bold; color:white;">  Vishwa Ayurveda </h2>
+       <p>  According to Ayurveda, every individual is born with a unique combination of doshas termed as PRAKRUTI 
+           <strong>(body’s physical constitution)</strong> that is determined at the moment of conception and influenced by seasonal 
+           variations and several other internal and external factors.  <br>
+            We are all different, everyone inherent strength and weakness. If you know yours and know how your
+             constitution causes them, you can adjust for them and make your life happier and healthier.
+
+    </p>
+
+
+</div>
+<div class="Products">
+    <div class="prod1">  <img src="Images\prod1.jpg" style="width:200px; height:200px; " ></div>
+    <div class="prod2"> <img src="Images\prod2.jpg" style="width:200px; height:200px; "></div>
+    <div class="prod3"> <img src="Images\prod3.jpg" style="width:200px; height:200px; "></div>
+    <div class="prod4"> <img src="Images\prod4.jpg"style="width:200px; height:200px; "></div> 
+    <div class="prod5"> <img src="Images\prod5.jpg" style="width:200px; height:200px; "></div> 
+    <div class="prod6"> <img src="Images\prod6.jpg" style="width:200px; height:200px; "></div> 
+    <div class="prod7"> <img src="Images\prod7.jpg" style="width:200px; height:200px;"></div> 
+
+<br><br>
+
+</div>
+
+<div class="customers">
+    <h2 > Words from Customers</h2>
+    <div class="cust1">  <p> Love all of Banyan Botanicals products! Exceptional quality and standards I care about. Valuable information on website and great customer service!
+   <b> Heidi P. </b>   </p></div>
+   <div class="cust2"> <p> I have learned so much from your blogs and all of the products you offer are fantastic. Thank you for caring so much about Ayurveda and sharing it’s magic!
+   <b> Nicki D.</b></p></div>
+   <div class="cust3"> <p>  I am an Ayurvedic Practitioner and have been using Banyan products for 22 years! They work beautifully and I know they are made with the utmost integrity.
+  <b> Marilynn J.</b> </p></div>
+</div>
+
+
+<!-- Image menu in main to contain an Image and
+         a sample text over that image -->
+         <div class="image1">
+
+
+          <div> <img src="Images\ayurvednaturetree.jpg">  </div> 
+          <div> <h4> Ayurvedic Lifestyle</h4></div> 
+          <div>  <h3>Elevate with Ayurveda</h3></div> 
+          <div> <h3> From the past 25 years, sharing the wisdom of ayurved and its power of Ayurvedic herbs has been our passion.
+               We are here to help people achieve and maintain optimal health and well-being.</h3></div>
+         </div>
+
+<div class="features">
+    <div> <h4 style="text-align: center; font-weight: bold;"> Sustainably sourced</h4> <br>
+        <p> Environmentally responsible practices<br> support the longterm well-being of the plants and<br> ecosystems we source from</p>
+    </div>
+
+    <div> <h4> Certified Organic</h4>  <br>
+      <p> Organic herbs are grown with the use of renewable<br> resources, contributing to both individual and planetary<br> health.
+    </p>   </div>
+
+    <div>   <h4>Fairly Traded</h4> <br>
+    <p> Equitable supply chains ensure the social and economic well-being <br>of our small farmers, producers, and suppliers.    </p>
+    </div>
+</div>
+
+<!-- Image menu in main to contain an Image and
+         a sample text over that image -->
+<div class="image2">
+        <div> <img src="Images\image3.jpg" style="width:1300px; height:1033px"></div>
+        <div> <h4> More Than a Dosha Quiz</h4></div>
+        <div> <h4> Find balance and learn your Ayurvedic body type. This online test <br> 
+            will give you a process of self-discovery, inquiry, and honest<br>
+             reflection through the lens of Ayurveda.</h4></div>
+        <div> <form>
+            <button type="submit" formaction="#.html"> <h3> Learn More</h3></button>
+        </form></div> 
+    <br> <br> </div>
+<div class="image3">
+    <div> <img src="Images\imagethree.jpg" style="width:1300px; height:1033px"></div>
+    <div> <h4> Making a difference</h4></div>
+    <div> <p> As a Certified B Corp, we're passionately committed to using our business <br>
+        as a force for good and creating positive social and environmental change.    </p></div>
+        <div> <form>
+            <button type="submit" formaction="#.html"> <h3> Learn More</h3></button>
+        </form></div> 
+</div>
+
+
+
+
+
+
+
+    </main>
+    <footer> 
+        <div class="left-navbar">
+     <div class="notify">
+        <div>  <h4> AYURVEDIC WISDOM, STRAIGHT TO YOUR INBOX
+            </h4>         </div>
+<div> <p> Save 10% on your first order when you sign up, plus be the first to know about
+    upcoming sales, new products, and all things Ayurveda</p></div>
+     </div>
+
+     <!----<div class="right-navbar">--->
+
+        <div><input type="text" name="type" id="text"> </div>
+       <div> <button class="btn-sm"> <h4> Notify Me</h4></button> </div>
+     </div>
+    <div class="follow_banyan">
+        <ul class="media">
+            <div><h4> Follow Vishwa</h4></div>
+            <div><li><a href="#.html"><img src="Images\facebook1logo.jpg" style="width:25px;height:25px"></a> <a href="#.html"><img src="Images\instagram.jpg" style="width:25px;height:25px"></a><a href="#.html"> <img src="Images\youtube.jpg" style="width:25px;height:25px"></a><a href="#.html"><img src="Images\linkedin.jpg"style="width:25px;height:25px"></a></li></div>
+            
+           <div> <li><h4> <a href="#.html">Contact Customer Service </a></h4></li></div>
+         <div>  <li><h5><a href="#.html"> 1-800-953-6424 </a></h5></li></div>
+          <div>  <li> <h5><a href="#.html">info-vishwaayurved.com</a></h5></li></div>
+           <div> <li> <h5>Questions? Start a <a href="#.html"> chat with us</a></h5></li></div>
+
+        </ul>
+        <ul class="herbs">
+            <div> <h4> Vishwa Herbs</h4> </div>
+            <div><li> <h5><a href="#.html">Quality Control and Testing</a> </h5></li> </div>
+             <div> <li> <h5><a href="#.html"><b> Customer Service </a></b></h5></li></div>
+                 <div> <li> <h5><a href="#.html">Contact Us </a></h5></li></div>
+                     <div> <li> <h5><a href="#.html">The Vishwa Guarantee</a></h5></li></div>
+              <div><li> <h5><a href="#.html">Gift Cards</a></h5></li></div>
+         <div><li> <h5><a href="#.html">Frequently Asked Questions</a></h5></li></div>
+</ul>     
+    
+        <ul class="orders">
+           <div><h4>Orders & Returns</h4></div> 
+           <div><li><h5><a href="#.html"> Order Status </a></h5></li></div> 
+           
+           <div><li> <h5> <a href="#.html">Shipping Information</a> </h5></li></div> 
+           <div><li> <h5> <a href="#.html">Autoship Subscriptions </a> </h5></li></div> 
+           <div><li><h5> <a href="#.html">Returns </a></h5></li> </div>  <br>
+           <div><h4> <a href="#.html">Partner With Us </a></h4></div> 
+           <div> <li><h5><a href="#.html">Affiliates & Creators </a></h5></li></div>
+           <div><li><h5><a href="#.html">Wholesale </a></h5></li></div>
+        </ul>
+
+           <ul class="about_us">
+               <div><h4> About Us</h4></div>
+                <div><li><a href="#.html"><h5> Our Story</a></h5></li></div>
+                <div><li><a href="#.html"><h5>Our Team</a></h5></li></div>
+                <div><li><a href="#.html"><h5> Our Authors</a></h5></li></div>
+                <div><li><a href="#.html"><h5> Our Commitment</a></h5></li></div>
+                <div><li><a href="#.html"><h5>Career</a></h5></li></div>
+                <div><li><a href="#.html"><h5>>Reviews</a></h5></li></div>
+           </ul>
+    
+       <ul class="Bcorporation">
+           
+         <div><li><a href="#.html"><img src="Images\Certified_B_Corporation.jpg"></a> </li> </div>
+       </ul>
+
+
+
+    </div>
+
+
+    </footer>
+</body>
+</html>
